@@ -9,7 +9,10 @@ JAVA
 
 - Proyecto OTI Laboratorio
   Programa realizado en Rubiales, falta hacer modificaciones para que funcione.
-  
+
 PYTHON
+
+- Calculadora Completa
+  Calculadora realizada en Python, le faltan mejoras
 
 EXCEL
