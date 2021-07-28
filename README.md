@@ -24,4 +24,7 @@ PYTHON
 - Editor de texto
   Editor de texto sencillo, pendiente el copiar pegar
 
+- Base de Datos
+  Proyecto de manejo de base de datos en sqlite3
+
 EXCEL
