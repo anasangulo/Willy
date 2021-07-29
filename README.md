@@ -9,6 +9,7 @@ JAVA
 
 - Reto 3 Curso Programacion Basica MINTIC Universidad del Norte
   Apenas se inicio el reto, se copio el reto 2.
+  Se diseño la parte grafica del reto. Finalizado.
 
 - Punto de venta
   Proyecto completo falta funcionar la base de datos
