@@ -7,6 +7,9 @@ JAVA
 - Reto 2 Curso Programacion Basica MINTIC Universidad del Norte
   Ya esta finalizado y Calificado con 100.
 
+- Reto 3 Curso Programacion Basica MINTIC Universidad del Norte
+  Apenas se inicio el reto, se copio el reto 2.
+
 - Punto de venta
   Proyecto completo falta funcionar la base de datos
 
