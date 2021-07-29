@@ -27,4 +27,7 @@ PYTHON
 - Base de Datos
   Proyecto de manejo de base de datos en sqlite3
 
+- Base de Datos en MySQL
+  Proyecto de manejo de base de datos en MySQL
+
 EXCEL
