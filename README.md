@@ -4,12 +4,15 @@ Proyectos Realizados por Willy Corzo
 
 JAVA
 
-- Reto 2 Curso Programacion Basica MINTIC Universidad del Norte
+- Reto 2 Willy Corzo Curso Programacion Basica MINTIC Universidad del Norte
+  Ya esta finalizado y Calificado con 100.
+
+- Reto 2 Jorge Santander Curso Programacion Basica MINTIC Universidad del Norte
   Ya esta finalizado y Calificado con 100.
 
 - Reto 3 Curso Programacion Basica MINTIC Universidad del Norte
-  Apenas se inicio el reto, se copio el reto 2.
-  Se diseño la parte grafica del reto. Finalizado.
+  Apenas se inicio el reto, se copio el reto 2. Se diseño la clase padre.
+  Se diseño la parte grafica del reto. Pendiente tomar los datos de la parte grafica
 
 - Punto de venta
   Proyecto completo falta funcionar la base de datos
@@ -36,5 +39,5 @@ PYTHON
 
 - Calendario
   Proyecto para realizar un calendario, unicamente se inicio
-  
+
 EXCEL
