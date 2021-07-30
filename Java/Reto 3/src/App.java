@@ -9,9 +9,9 @@ public class App {
         // Se llama el metodo readData
         SchoolGradingSystem.loadData();
         // Se llama el metodo question1
-        SchoolGradingSystem.stat1();
+        System.out.println(SchoolGradingSystem.stat1());
         // Se llama el metodo question2
-        SchoolGradingSystem.stat2();
+        System.out.println(SchoolGradingSystem.stat2());
         // Se llama el metodo question3
         System.out.println(SchoolGradingSystem.stat3());
         // Se llama el metodo question4

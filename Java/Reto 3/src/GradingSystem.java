@@ -87,7 +87,7 @@ public class GradingSystem {
     // corresponde al número de la pregunta a la cual debe dar respuesta, para este
     // caso serían los números del 1 al 4
     // Realizamos el metodo question1 Notas inferiores al promedio
-    public static void stat1() {
+    public static int stat1() {
         // Declaramos un acumulador de notas
         float sumatoriaDeNotas = 0;
         // Calculamos el promedio de las notas. recorriendo la lista desempeño de
@@ -110,11 +110,11 @@ public class GradingSystem {
             }
         }
         // Se imprime la cantidad de notas inferiores al promedio
-        System.out.println(notasInferioresAPromedio);
+        return (notasInferioresAPromedio);
     }
 
     // Realizamos el metodo question2 Porcentaje de notas excelentes
-    public static void stat2() {
+    public static double stat2() {
         // Declaramos un contador de notas excelentes como double para despues hallar el
         // porcentaje
         double notasExcelentes = 0;
@@ -139,7 +139,7 @@ public class GradingSystem {
             System.out.println("0.00");
         } else {
             // Se imprime el valor del porcentaje con dos cifras decimales
-            System.out.println(porcentaje);
+            return (porcentaje);
         }
     }
 
