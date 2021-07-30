@@ -37,7 +37,7 @@ def main():
 
         # Asignamos el alto y el ancho de nuestra pantalla API
         anchoapp = 450
-        altoapp = 600
+        altoapp = 650
 
         # Obtenemos el ancho y el alto de la pantalla del computador
         anchopantalla = ventanaapi.winfo_screenwidth()
@@ -69,7 +69,7 @@ def main():
         lblhidrometro = Label(frame2, text="Lectura de Hidrometro")
         lbltemperatura = Label(frame2, text="Lectura de Termometro")
         lblapi = Label(frame2, text="API Corregido @ 60 f")
-        lblresultado = Label(frame2)
+        lblresultado = Label(frame2, text="Densidad Relativa ")
 
         # Creamos los cuadros de texto que van en la pantalla inicial
         txthidrometro = Entry(frame2)
@@ -87,7 +87,7 @@ def main():
         btncalcular.grid(row=2, column=0, padx=10, pady=10)
         btnlimpiar.grid(row=2, column=2, padx=10, pady=10)
         lblapi.grid(row=3, column=0, padx=10, pady=10)
-        lblresultado.grid(row=3, column=2, padx=10, pady=10)
+        lblresultado.grid(row=4, column=0, padx=10, pady=10)
 
     # Creando la pantalla Splash
     splash = Tk()
