@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //WILLY CORZO
 
 // Reto 2 Curso Programacion Basica MINTIC - Universidad del Norte
@@ -59,6 +61,25 @@ public class SchoolGradingSystem extends GradingSystem {
     // el cual no debe recibir ni retornar ningún parámetro.
     // El objetivo de este método es leer los valores de entrada del programa.
 
-    
+    public static void loadData() {
+        // Se declara el objeto estudiante de la clase SchoolGradingSystem
+        SchoolGradingSystem estudiante;
+        // Se genera el Scanner entrada para recopilar los datos
+        Scanner entrada = new Scanner(System.in);
+        // Generamos las entradas al programa:número de calificaciones
+        int numeroDeCalificaciones = entrada.nextInt();
+        // Usamos el ciclo for para solicitar los datos
+        for (int fila = 0; fila < numeroDeCalificaciones; fila++) {
+            float nombre = entrada.nextFloat();
+            float genero = entrada.nextFloat();
+            float materia = entrada.nextFloat();
+            float calificacion = entrada.nextFloat();
+            // creamos un objeto de la clase SchoolGradingSystem
+            estudiante = new SchoolGradingSystem(nombre, genero, materia, calificacion);
+            // Añadimos el objeto creado a la lista de objetos de la clase
+            // SchoolGradingSystem
+            desempeñoDeEstudiantes.add(estudiante);
+        }
+    }
 
 }

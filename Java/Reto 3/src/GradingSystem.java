@@ -10,7 +10,7 @@ public class GradingSystem {
     protected float calificacion;
 
     // Declaracion de la lista desempeño de estudiantes para guardar los datos
-    private static List<SchoolGradingSystem> desempeñoDeEstudiantes = new ArrayList<>();
+    protected static List<SchoolGradingSystem> desempeñoDeEstudiantes = new ArrayList<>();
 
     public GradingSystem() {
     }
@@ -61,24 +61,7 @@ public class GradingSystem {
     }
 
     public static void loadData() {
-        // Se declara el objeto estudiante de la clase SchoolGradingSystem
-        SchoolGradingSystem estudiante;
-        // Se genera el Scanner entrada para recopilar los datos
-        Scanner entrada = new Scanner(System.in);
-        // Generamos las entradas al programa:número de calificaciones
-        int numeroDeCalificaciones = entrada.nextInt();
-        // Usamos el ciclo for para solicitar los datos
-        for (int fila = 0; fila < numeroDeCalificaciones; fila++) {
-            float nombre = entrada.nextFloat();
-            float genero = entrada.nextFloat();
-            float materia = entrada.nextFloat();
-            float calificacion = entrada.nextFloat();
-            // creamos un objeto de la clase SchoolGradingSystem
-            estudiante = new SchoolGradingSystem(nombre, genero, materia, calificacion);
-            // Añadimos el objeto creado a la lista de objetos de la clase
-            // SchoolGradingSystem
-            desempeñoDeEstudiantes.add(estudiante);
-        }
+        
     }
 
     // La clase debe contener 4 métodos, estos métodos no deben recibir ningún
@@ -136,7 +119,7 @@ public class GradingSystem {
         porcentaje = Math.round(porcentaje * 100) / 100d;
         // Empanada para colocar 0.00 si el porcentaje da cero
         if (porcentaje == 0) {
-            System.out.println("0.00");
+            return (0.00);
         } else {
             // Se imprime el valor del porcentaje con dos cifras decimales
             return (porcentaje);
