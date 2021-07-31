@@ -61,7 +61,7 @@ public class GradingSystem {
     }
 
     public static void loadData() {
-        
+
     }
 
     // La clase debe contener 4 métodos, estos métodos no deben recibir ningún
