@@ -11,8 +11,8 @@ JAVA
   Ya esta finalizado y Calificado con 100.
 
 - Reto 3 Curso Programacion Basica MINTIC Universidad del Norte
-  Apenas se inicio el reto, se copio el reto 2. Se diseño la clase padre.
-  Se diseño la parte grafica del reto. Pendiente tomar los datos de la parte grafica
+  Se realizo la parte 3.1 el programa realizado por consola, se presento y esta calificado con 100%
+  Parte 3.2 Se diseño la parte grafica del reto. Pendiente unir la parte grafica con el programa.
 
 - Punto de venta
   Proyecto completo falta funcionar la base de datos
