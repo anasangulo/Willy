@@ -2,13 +2,13 @@
   "java.configuration.updateBuildConfiguration": "interactive",
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
-    "Java/Librerias/javafx-sdk-11.0.2/lib/javafx.base.jar",
-    "Java/Librerias/javafx-sdk-11.0.2/lib/javafx.controls.jar",
-    "Java/Librerias/javafx-sdk-11.0.2/lib/javafx.fxml.jar",
-    "Java/Librerias/javafx-sdk-11.0.2/lib/javafx.graphics.jar",
-    "Java/Librerias/javafx-sdk-11.0.2/lib/javafx.media.jar",
-    "Java/Librerias/javafx-sdk-11.0.2/lib/javafx.swing.jar",
-    "Java/Librerias/javafx-sdk-11.0.2/lib/javafx.web.jar",
-    "Java/Librerias/javafx-sdk-11.0.2/lib/javafx-swt.jar"
+    "c:\\Librerias\\javafx-sdk-16\\lib\\javafx.base.jar",
+    "c:\\Librerias\\javafx-sdk-16\\lib\\javafx.controls.jar",
+    "c:\\Librerias\\javafx-sdk-16\\lib\\javafx.fxml.jar",
+    "c:\\Librerias\\javafx-sdk-16\\lib\\javafx.graphics.jar",
+    "c:\\Librerias\\javafx-sdk-16\\lib\\javafx.media.jar",
+    "c:\\Librerias\\javafx-sdk-16\\lib\\javafx.swing.jar",
+    "c:\\Librerias\\javafx-sdk-16\\lib\\javafx.web.jar",
+    "c:\\Librerias\\javafx-sdk-16\\lib\\javafx-swt.jar"
   ]
 }
