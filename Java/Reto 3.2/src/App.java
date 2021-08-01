@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 //WILLY CORZO
 
-// Reto 2 Curso Programacion Basica MINTIC - Universidad del Norte
+// Reto 3 Curso Programacion Basica MINTIC - Universidad del Norte
 
 // Iniciamos la clase App
 public class App extends Application {
