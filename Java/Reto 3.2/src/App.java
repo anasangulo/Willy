@@ -24,7 +24,7 @@ public class App extends Application {
         Parent root = fxmlloader.load();
         Scene scene = new Scene(root);
 
-        stage.setTitle("Prueba");
+        stage.setTitle("SISTEMA ESTADISTICO");
         stage.setScene(scene);
         stage.show();
     }

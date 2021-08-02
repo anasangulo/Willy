@@ -20,6 +20,9 @@ JAVA
 - Proyecto OTI Laboratorio
   Programa realizado en Rubiales, falta hacer modificaciones para que funcione.
 
+- Proyecto DAO
+  Programa para base de datos, falta hacer modificaciones para que funcione.
+
 PYTHON
 
 - Calculadora Completa
