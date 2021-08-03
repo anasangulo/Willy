@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane id="lblsistema" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="359.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<Pane id="lblsistema" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="359.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLVistaControlador">
    <children>
       <Button fx:id="btnCalcular" alignment="CENTER" defaultButton="true" layoutX="269.0" layoutY="67.0" mnemonicParsing="false" onAction="#accionCalcular" prefHeight="41.0" prefWidth="200.0" text="CALCULAR" textAlignment="CENTER">
          <font>

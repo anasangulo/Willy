@@ -61,25 +61,28 @@ public class SchoolGradingSystem extends GradingSystem {
     // el cual no debe recibir ni retornar ningún parámetro.
     // El objetivo de este método es leer los valores de entrada del programa.
 
-    public static void loadData() {
+    public static void loadData(String numeroDeCalificaciones, String cuadroTexto) {
         // Se declara el objeto estudiante de la clase SchoolGradingSystem
         SchoolGradingSystem estudiante;
-        // Se genera el Scanner entrada para recopilar los datos
-        Scanner entrada = new Scanner(System.in);
+        cuadroTexto = cuadroTexto.replace("\n", " ");
+        String[] arrDatos = cuadroTexto.split(" ");
+
         // Generamos las entradas al programa:número de calificaciones
-        int numeroDeCalificaciones = entrada.nextInt();
+        int numeroDeCalificacion = Integer.parseInt(numeroDeCalificaciones);
+
         // Usamos el ciclo for para solicitar los datos
-        for (int fila = 0; fila < numeroDeCalificaciones; fila++) {
-            float nombre = entrada.nextFloat();
-            float genero = entrada.nextFloat();
-            float materia = entrada.nextFloat();
-            float calificacion = entrada.nextFloat();
+        for (int indice = 0; indice < numeroDeCalificacion * 4 - 1; indice++) {
+            float nombre = Float.parseFloat(arrDatos[indice]);
+            float genero = Float.parseFloat(arrDatos[indice + 1]);
+            float materia = Float.parseFloat(arrDatos[indice + 2]);
+            float calificacion = Float.parseFloat(arrDatos[indice + 3]);
+            indice += 3;
             // creamos un objeto de la clase SchoolGradingSystem
             estudiante = new SchoolGradingSystem(nombre, genero, materia, calificacion);
             // Añadimos el objeto creado a la lista de objetos de la clase
             // SchoolGradingSystem
             desempeñoDeEstudiantes.add(estudiante);
-            entrada.close();
+
         }
     }
 

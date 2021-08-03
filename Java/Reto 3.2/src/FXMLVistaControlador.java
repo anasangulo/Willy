@@ -35,12 +35,22 @@ public class FXMLVistaControlador implements Initializable {
     @FXML
     void accionCalcular(ActionEvent event) {
 
+        String numeroDeCalificaciones = txtFNumero.getText();
+        String cuadroTexto = txtADatos.getText();
+
+        // Se llama el metodo readData
+        SchoolGradingSystem.loadData(numeroDeCalificaciones, cuadroTexto);
+
+        // Se llama los metodos y se muestran en pantalla
+        txtACalculos.setText(String.valueOf(SchoolGradingSystem.stat1()) + "\n" + String.valueOf(
+                SchoolGradingSystem.stat2() + "\n" + SchoolGradingSystem.stat3() + "\n" + SchoolGradingSystem.stat4()));
+
     }
-    
+
     @Override
     public void initialize(URL url, ResourceBundle resources) {
         // TODO Auto-generated method stub
-        
+
     }
 
 }
