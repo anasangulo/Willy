@@ -79,6 +79,7 @@ public class SchoolGradingSystem extends GradingSystem {
             // Añadimos el objeto creado a la lista de objetos de la clase
             // SchoolGradingSystem
             desempeñoDeEstudiantes.add(estudiante);
+            entrada.close();
         }
     }
 

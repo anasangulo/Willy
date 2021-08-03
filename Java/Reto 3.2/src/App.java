@@ -32,14 +32,14 @@ public class App extends Application {
     public static void main(String[] args) throws Exception {
         launch(args);
         // Se llama el metodo readData
-        SchoolGradingSystem.loadData();
+        //SchoolGradingSystem.loadData();
         // Se llama el metodo question1
-        System.out.println(SchoolGradingSystem.stat1());
+        //System.out.println(SchoolGradingSystem.stat1());
         // Se llama el metodo question2
-        System.out.println(SchoolGradingSystem.stat2());
+        //System.out.println(SchoolGradingSystem.stat2());
         // Se llama el metodo question3
-        System.out.println(SchoolGradingSystem.stat3());
+        //System.out.println(SchoolGradingSystem.stat3());
         // Se llama el metodo question4
-        System.out.println(SchoolGradingSystem.stat4());
+        //System.out.println(SchoolGradingSystem.stat4());
     }
 }
