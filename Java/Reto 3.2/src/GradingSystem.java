@@ -217,6 +217,9 @@ public class GradingSystem {
                 nombreestudiante = "alexandra";
                 break;
         }
+
+        desempeñoDeEstudiantes.clear();
+
         // Imprimimos el nombre del mejor estudiante
         return nombreestudiante;
     }

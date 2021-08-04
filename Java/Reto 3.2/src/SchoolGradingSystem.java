@@ -71,7 +71,7 @@ public class SchoolGradingSystem extends GradingSystem {
         int numeroDeCalificacion = Integer.parseInt(numeroDeCalificaciones);
 
         // Usamos el ciclo for para solicitar los datos
-        for (int indice = 0; indice < numeroDeCalificacion * 4 - 1; indice++) {
+        for (int indice = 0; indice <arrDatos.length; indice++) {
             float nombre = Float.parseFloat(arrDatos[indice]);
             float genero = Float.parseFloat(arrDatos[indice + 1]);
             float materia = Float.parseFloat(arrDatos[indice + 2]);
