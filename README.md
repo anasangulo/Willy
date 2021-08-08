@@ -29,7 +29,8 @@ PYTHON
   Calculadora realizada en Python, le faltan mejoras
 
 - Calculadora API
-  Calculadora para calcular API a 60 F y Densidad relativa, pendiente terminar GUI y realizar los calculos.
+  Calculadora para calcular API a 60 F y Densidad relativa, pendiente terminar GUI.
+  Se realizaron los calculos para crudo, pendiente el resto
 
 - Editor de texto
   Editor de texto sencillo, pendiente el copiar pegar

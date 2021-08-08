@@ -10,10 +10,9 @@ def calculo(hidrometro, temperatura):
 
     densidad = (141.5 / (apiobservado + 131.5)) * 999.016
 
-    if densidad < 610.6:
-        densidad = 610.6
-    if densidad > 1163.5:
-        densidad = 1163.5
+    hyc = 1 - (0.00001278*(temperatura-60))-(0.0000000062*(temperatura-60)**2)
+
+    densidad = hyc*densidad
 
     densidad60 = densidad
 
@@ -57,7 +56,6 @@ def calculo(hidrometro, temperatura):
                       ((793920 + 2326 * tf68) / de ** 2))
         cpl2 = 1 / (1 - fp * presion * 0.00001)
         ctpl2 = ctlc * cpl2
-        #ctpl2 = round(ctpl2, 5)
         dt2 = temperatura - 60
         x = densidad60 * ctpl2
         spo = densidad60 - x
@@ -67,22 +65,9 @@ def calculo(hidrometro, temperatura):
         dp = (Da * cpl2 * presion * fp * (7.9392 +
               0.02326 * temperatura)) / (densidad60 ** 2)
         ddensidad60 = e / (1 + dtm + dp)
-
-        if (densidad60 + ddensidad60) < 610.6:
-            ddensidad60 = 610.6 - densidad60
-
-        if (densidad60 + ddensidad60) > 1163.5:
-            ddensidad60 = 1163.5 - densidad60
-
         i += 1
 
     densidad60 = densidad60 + ddensidad60
     densidad60 = round(densidad60,1)
-
-    # if apiobservado < -13.4 Then API_60F = "API Low"
-    # If Apiob > 168.9 Then API_60F = "API High"
-
-    # If TempOb < -58 Then API_60F = "Temp Low"
-    # If TempOb > 302 Then API_60F = "Temp High"
 
     return densidad60
